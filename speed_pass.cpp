@@ -32,10 +32,9 @@ int main()
 					puts(ctime(&first));
 					printf("\n\n\t\t\tPlease wait for \n\n\t\t\t%d\n\n\t\t\tSeconds",10-i);
 					if(i==10)
-					printf("\n\n\t\t\tWelcome in the game\n\t\t\tPress any key to continue ");
+					printf("\n\n\t\t\tWelcome into the System.\n\t\t\tPress any key to continue ");
 					delay(1000);
 				}
-				system("D:\\Game\\Tekken-3");
 				}
 				else
 				{printf("\n\n\t\tWelldone, But I think you are not supposed to enter the database"); getch(); main(); break;}
